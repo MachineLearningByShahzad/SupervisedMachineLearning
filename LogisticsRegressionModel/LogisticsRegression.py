@@ -11,6 +11,7 @@ The gradient_descent function, which performs gradient descent to update the mod
 The fit function, which trains the model by running gradient descent on the input data X and labels y.
 The predict function, which predicts the binary labels for new input data X using the trained model parameters theta."""
 
+
 class LogisticRegression:
     def __init__(self, learning_rate=0.01, num_iterations=1000, fit_intercept=True):
         self.learning_rate = learning_rate
